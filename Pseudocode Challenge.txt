@@ -1,0 +1,128 @@
+Pseudocode Challenge
+
+1. Newton Second Law
+
+   ΣF = m x a
+
+Pseudocode:
+STORE ‘mass’ with 600
+STORE ‘percepatan’ with 2
+STORE ‘gaya’ with null
+
+CALCULATE ‘mass’ times ‘percepatan’
+SET ‘gaya’ value with calculation result
+
+DISPLAY ‘gaya’
+
+
+NATURAL LANGUAGE:
+1. Simpan variabel ‘mass’ dengan nilai 600
+2. Simpan variabel ‘percepatan’ dengan nilai 2
+3. Simpan variabel gaya tanpa nilai atau null
+4. Hitung hasil kali nilai variabel ‘mass’ dengan ‘percepatan’
+5. Tempatkan hasil perkalian menjadi nilai variabel ‘gaya’
+6. Tampilkan nilai ‘gaya’
+
+
+
+
+2. Tahun Kabisat
+
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+
+Pseudocode:
+
+STORE ‘kabisat’ to any number
+
+IF ‘kabisat’ mod 4 equals 0 OR ‘kabisat’ mod 100 not equals to 0
+	DISPLAY ‘Ini Tahun Kabisat’
+ELSE IF ‘kabisat’ mod 4 equals 0 AND ‘kabisat’ mod 100 equals 0 AND ‘kabisat’ mod 400 equals 0
+	DISPLAY ‘Ini juga Tahun Kabisat’
+ELSE 
+	DISPLAY ‘Bukan Tahun Kabisat’
+ENDIF
+
+
+NATURAL LANGUAGE:
+1. Simpan variabel ‘kabisat’ dengan bilangan berapapun
+2. Jika nilai ‘kabisat’ modulo 4 adalah 0 ATAU ‘kabisat’ modulo 100 tidak sama dengan 0
+3. Maka tampilkan ‘Ini Tahun Kabisat’
+4. Jika ‘kabisat’ modulo 4 adalah 0 DAN ‘kabisat’ modulo 100 adalah 0 DAN ‘kabisat’ modulo 400 adalah 0
+5. Maka tampilkan ‘Ini juga Tahun Kabisat’
+6. Tampilkan ‘Bukan Tahun Kabisat’
+
+
+
+
+3. Laundry Day
+
+
+Pseudocode:
+STORE ‘cuci’ with 0
+
+WHILE ‘cuci’ <= 20
+   ADD ‘cuci’ by 1
+ENDWHILE
+
+DISPLAY ‘Nyalakan mesin cuci’
+
+
+
+NATURAL LANGUAGE
+
+1. Simpan nilai ‘cuci’ dengan angka 0
+2. Ulangi step 3 selama nilai ‘cuci’ masih di bawah angka sama dengan 20. Jika nilai ‘cuci’ sudah mencapai 20, maka lanjut ke step 4
+3. Tambah nilai ‘cuci’ dengan 1. Kembali ke step 2 hingga nilai ’cuci’ mencapai nilai 20
+4. Tampilkan ’Nyalakan mesin cuci’
+
+
+
+
+4. Periksa Kuku
+
+Pseudocode:
+STORE ‘siswa’ to 0
+STORE ‘kukupanjang’ with true
+
+WHILE ‘siswa’ <= 40
+    DISPLAY ‘siswa’
+    ADD ‘siswa’ by 1
+       IF ‘kukupanjang’ is true
+         DISPLAY ‘Guru hukum murid’
+       ELSE
+	 DISPLAY ‘Guru memuji murid’
+ENDWHILE
+
+
+
+NATURAL LANGUAGE:
+1. Simpan nilai ‘siswa’ dengan angka 0
+2. Simpan nilai ‘kukupanjang’ dengan boolean true
+3. Tampilkan nilai dari ‘siswa’
+4. Tambah nilai ‘siswa’ dengan 1 dengan pengulangan hingga mencapai angka 40
+5. Jika ‘kukupanjang’ merupakan true, maka tampilkan ‘Guru hukum murid’. Jika ‘kukupanjang’ merupakan false, maka tampilkan ‘Guru memuji murid’
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
