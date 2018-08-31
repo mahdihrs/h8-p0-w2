@@ -21,4 +21,4 @@ function konversiMenit(menit) {
     return hour,mins;
   }
 
-konversiMenit(70);
+console.log(konversiMenit(70));
